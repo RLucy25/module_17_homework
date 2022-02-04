@@ -1,0 +1,22 @@
+.task {
+    margin: 20px auto;
+    max-width: 70vw;
+    text-align: center;
+}
+
+.u-lists, .text {
+    text-align: left;
+}
+
+.btn-answer {
+    background-color: pink;
+    border-radius: 25px;
+    width: 200px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn-answer:hover {
+    background-color: darkred;
+    color: white;
+}

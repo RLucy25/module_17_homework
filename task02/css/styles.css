@@ -1,0 +1,26 @@
+.task {
+    margin: 20px auto;
+    max-width: 70vw;
+    text-align: center;
+}
+
+#button01 {
+    background-color: pink;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.logo02 {
+    animation-duration: 1s;
+    animation-name: magic;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes magic {
+    from {
+      transform: rotate(0);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
